@@ -9,43 +9,55 @@ decisions worth talking about.
 
 ---
 
-### [PuurSmile — A/B Test Winner Promotion](projects/puursmile-winner.md)
+## E-commerce & Shopify
 
+### [A/B Test Winner Promotion](projects/puursmile-winner.md)
 Embedded Shopify app that promotes the winning variant of a product-page A/B test
 onto the live product — with a field-by-field preview, an automatic backup and a
 one-click rollback.
-
 `Remix` `Shopify Admin GraphQL` `Polaris` `App Bridge` `TypeScript`
 
----
+### [Shopify Theme Engineering](projects/puursmile-shopify-theme.md)
+A dental membership programme that had to behave correctly in a cart shared with
+three page builders and two apps — plus a clean-up of the hidden backlinks and dead
+legal links that were quietly damaging the store.
+`Liquid` `Shopify themes` `subscription & cart apps`
 
-### [PuurSmile — Media Performance Dashboard](projects/puursmile-mp-dashboard.md)
+### [Media Performance Dashboard](projects/puursmile-mp-dashboard.md)
+Twelve data sources — Shopify, Meta, Google Ads, subscriptions, analytics — into one
+set of numbers a marketing team can trust, with the provenance of every figure
+visible underneath it.
+`Next.js 15` `TypeScript` `PostgreSQL` `Prisma` `Shopify Admin GraphQL`
 
-Executive analytics dashboard unifying twelve data sources — Shopify, Meta, Google
-Ads, subscriptions, analytics — into the numbers a marketing team actually decides
-on, with the provenance of every figure visible underneath it.
+### [B2B Road Signage Store](projects/mondosegnaletica-store.md)
+1,200 products and 35,000 variants lifted out of a supplier's PDF price lists into a
+WooCommerce store, with quote requests for everything that has no list price.
+`PHP 8.1` `WordPress` `WooCommerce` `Python` `Vite` `Tailwind`
 
-`Next.js 15` `TypeScript` `PostgreSQL` `Prisma` `Shopify Admin GraphQL` `Railway`
+## Platforms, data & tooling
 
----
-
-### [PuurSmile — AI Creative Naming](projects/puursmile-ads.md)
-
+### [AI Creative Naming](projects/puursmile-ads.md)
 A system that watches an ad creative, frames and audio, and proposes a structured
 name in the company's own vocabulary — with the evidence behind every term, and a
 human approving each one.
-
 `Next.js 15` `PostgreSQL` `ffmpeg` `vision LLM` `Notion / Drive / Frame.io`
 
----
-
-### [Mondo Segnaletica — Field Reporting App](projects/mondosegnaletica-rapportini.md)
-
-Replaces the paper job sheets of a road-signage company: crews file the day's work
-from a tablet at the roadside, offline, and the office gets structured data instead
-of handwriting. **[Live](https://rapp.mondosegnaletica.it)** (behind login).
-
+### [Field Reporting App](projects/mondosegnaletica-rapportini.md)
+Paper job sheets replaced by an offline-first tablet app for roadside crews, who
+work where there is no signal. **[Live](https://rapp.mondosegnaletica.it)** (behind login).
 `Django` `Python` `PostgreSQL` `HTMX` `Capacitor`
+
+### [Airport Valet Booking](projects/nextstop-booking.md)
+A WordPress booking plugin written from scratch: five-step booking flow, its own
+data tables, and a month calendar for the operator.
+`PHP` `WordPress` `MySQL`
+
+## Side project
+
+### [CRS Overlay](projects/crs-overlay.md)
+A Windows overlay that controls Spotify from inside a game, written in Rust — with
+the anti-cheat and platform rules it refuses to break documented before the code.
+`Rust` `Tauri` `Win32` `Core Audio`
 
 ---
 
